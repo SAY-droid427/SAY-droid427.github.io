@@ -1,71 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <!----  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+      <link href="css/bootstrap.css" rel="stylesheet" />
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+      <link href="css/rotating-card.css" rel="stylesheet" />
+      <link href="https://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+ 
+      <link rel="stylesheet" type="text/css" href="css/styles2.css">
 
-<head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropDown">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#">The Art Hub</a>
-            <div class="collapse navbar-collapse" id="navbarNavDropDown">
-                <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="./menu.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./gallery.html">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="./contacts.html">Contacts</a></li>
+    </head>
+    <body>
+    
+        <div class="container-fluid" id="na">          
+      
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      
+              <a class="navbar-brand" href=""><strong><span class="head">Sayani Mallick</span> </strong></a>
+      
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+      
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">         
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#coverPage1"><strong><span class="header">Home Page</span></strong></a>
+                  </li>
+                 
+                  <li class="nav-item">
+                    <a class="nav-link" href="#coverPage2"><strong><span class="header">Projects</span></strong></a>
+                  </li>
+                 
                 </ul>
-            </div>
+      
+              </div>
+            </nav>
+        </div>   
+        
+        <div class="container-fluid" id="coverPage1" style="background-image:url('images/vector.jpeg');background-size:cover ;">
+          <div class="container" id="top-page">
+            <h1 class="pro">About</h1>
         </div>
-    </nav>
-    <div class="jumbotron">
-        <div class="container">
-            <div data-aos="fade-up">
-                <h1>The Art Hub</h1>
-                <h4>"The principles of true art is not to portray, but to evoke."</h4>
-            </div>
         </div>
-         
-    </div>
-    <div class="container" id="description">
-        <div data-aos="fade-right" id="animate">
-            <h2>Hi!</h2>
-        </div>
-       <div data-aos="fade-left" id="animate">
-        <h4>I am Sayani Mallick! I hail from West Bengal. I have spent my childhood in Odisha and Jharkhand. I have completed my Class XII th from Ranchi, Jharkhand.I am currently pursuing my Engineering in Electronics and Communication from BITS Pilani, KK Birla Goa Campus.  </h4>
-       </div>
-        <hr>
-        <div data-aos="fade-right" id="animate">
-         <h4>I had a deep interest in art since the age of three.Even before starting schooling, I had picked up crayons. Art is something which pacifies this brain of mine working like a CPU 24X7, soothes it and increases its productivity.It is the essence of my soul. </h4>  
-        </div>
-        <hr>
-        <div data-aos="fade-left" id="animate">
-       <h4>I am also an artist in Kala,the Fine Arts Society of BITS GOA.<br>I believe that "Every child is an artist. But it all lies in how we maintain that art when we are adults".Hope you will like my artwork.Please feel free to reach out to me for discussing art,engineering and coffee! </h4>
-        </div>
-    </div>
-    <footer class="footer">
-        <div class="container-fluid">
-            <div class="row justify-content-center">             
-                <div class="col-auto">
-                    <p>Made with  💛  by Sayani Mallick</p>
-                </div>
-           </div>
+        <div id="aboutme" class="container-fluid">
+          <h1>Hello!</h1>
+          <br>
+          <h3>I am Sayani Mallick!I am a student of Birla Institute Of Technology and Sciences, Pilani(Goa Campus), currently pursuing my BE in Electronics and Communications.I am a web developer-cum-designer and love developing beautiful and interactive websites which can steal your hearts and the show!I am also a competitive programmer and I love solving problems in C++ and Python.</h3>
+          <br>
+          <button class="btn btn-lg btn-outline-dark"><a href="" id="link1">See Resume</a></button>
         </div>
         
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-      </script>
-</body>
-    </html>
+       
+        <div class="container-fluid" id="coverPage2" style="background-image: url('images/Technical-Expertise11.jpg'); background-size: cover;" >
+            <div class="container" id="top-page">
+                <h1 class="pro">Projects</h1>
+            </div>
+        </div>
+        <div class="container" id="desc">
+            <h4 class="desc1">I believe, earning Coursera certificates is not enough, because now almost everyone has those certificates, so it does not give any competitive edge. Rather prjects showcase what you actually know!! <br>All my projects till now have been based on web development.</h4>
+            
+        </div>
+        <div class="webApp1" style="background-image: url('images/webImage.jpg');background-size: cover;" data-aos="zoom-in-left">
+            <div class="cover">
+            <h2 class="title">Weather App</h2>
+            <h4>This app has been built using OpenWeatherMap API.It takes the input as the name of the city and displays the weather conditions.</h4>
+            <div class="btn btn-lg btn-outline-light" id="but"><strong><a href="https://radiant-wildwood-86842.herokuapp.com/" id="link">Visit the web app</a></strong></div>
+            </div>
+        </div>
+        <div class="webApp2" style="background-image: url('images/webImage2.jpg');background-size: cover;"  data-aos="zoom-in-right">
+            <div class="cover">
+            <h2 class="title">Blog Site</h2>
+            <h4>This app has been developed using Express, NodeJS and Mongoose.You can compose your blog here!And also delete individual blogs.</h4>
+            <div class="btn btn-lg btn-outline-light" id="but"><strong><a href="https://github.com/SAY-droid427/BlogsApp" id="link">See code</a></strong></div>
+            </div>
+        </div>
+        <div class="webApp3" style="background-image: url('images/webImage3.jpg');background-size: cover;"  data-aos="zoom-in-left">
+            <div class="cover">
+            <h2 class="title">To Do Site</h2>
+            <h4>This app has been developed using Express, NodeJS and Mongoose. Make a list of your daily tasks.</h4>
+            <div class="btn btn-lg btn-outline-light" id="but"><strong><a href="https://github.com/SAY-droid427/toDoList" id="link">See code</a></strong></div>
+            </div>
+        </div>
+        <div class="webApp4" style="background-image: url('images/webImage4.jpeg');background-size: cover;"  data-aos="zoom-in-right">
+            <div class="cover">
+            <h2 class="title">See more</h2>
+            <h4>Checkout my GitHub to see more of my projects.</h4>
+            <div class="btn btn-lg btn-outline-light" id="but"><strong><a href="https://github.com/SAY-droid427" id="link">Visit GitHub</a></strong></div>            
+            </div>
+        </div>
+        <footer class="footer">
+          <div class="row">
+             <a href=""><img src="images/linkedIn.png" class="icons"></a>
+            <a href="https://github.com/SAY-droid427"><img src="images/git.jpg" class="icons"></a>
+          </div>       
+          <div class="row">
+            <h6>Phone:7903939804</h6>            
+          </div>
+          <div class="row">
+            <h6>Email:sayanimallick369@gmail.com</h6> <br>             
+  
+          </div>
+          <div class="row">
+            <h6>institute Email:f20190218@goa.bits-pilani.ac.in</h6>   
+          </div>
+
+          Made with ❤️️ by Sayani Mallick 
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>    
+        </body>
+        
+    </body>
+</html>
+        

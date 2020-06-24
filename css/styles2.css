@@ -1,0 +1,297 @@
+.box
+{
+    padding:30px;
+    margin:60px 5px 10px 0;
+    text-align: left;
+}
+
+#Me{
+    margin:0 auto;
+    padding-top:40px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+#na{
+    margin-bottom:50px;
+}
+.header
+{
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.para{
+    font-weight: bold;
+    line-height:2;
+}
+.img-responsive{
+    margin:40px;
+    height:400px;
+    width:100%;   
+    
+}
+#pics{
+    text-align: center;
+}
+#carouselExampleControls{
+    text-align: center;
+     width:50%;
+     max-height: 400px;
+}
+#pic{
+    text-align:center;
+    padding:30px;
+}
+#colored{
+    background-color: rgb(236, 138, 99);
+   
+}
+.head{
+    padding:30px;
+    font-weight: bold;
+    margin-top:30px;
+    text-align: center;
+}
+.im{
+    height:50px;
+    width:50px;
+    border-radius: 100%;
+}
+.testimonial-text{
+    color:white;
+    text-align: center;
+    line-height: 2;;
+}
+#extra
+{
+    text-align:center;
+    margin-top:0 auto;
+    display:inline-block;
+    border-radius: 100%;   
+    height:400px;
+    width:400px;
+    padding-bottom: 30px;;
+    
+}
+.iconsa{
+    margin:30px;
+    font-weight: bold;
+    color:gray;
+    text-align: center;
+}
+#quotes{
+    height:400px;
+    
+    margin:0 auto;
+}
+.quote{
+    color:white;
+    font-weight:bold ;
+    font-size:4rem;
+    position: absolute;
+    top:100px;
+    padding:50px;
+}
+.aboutArt{
+    color:black;
+    margin:30px;   
+    line-height: 1.8;
+    padding-bottom: 30px;
+    
+}
+
+#gallery{
+    position: relative;
+}
+.pic1{
+    position: absolute;
+    left:200px;
+   
+}
+.pic2{
+    
+    position: absolute;
+    top:200px;
+    right:400px;
+}
+.pic3{
+    position: absolute;
+    left:200px;
+    
+}
+@media only screen and (min-width: 400px)
+{
+    .head{
+        font-size: 2rem;
+    }
+    .header{
+        font-size: 1.5rem;
+    }
+    #coverPage{
+        height:600px;
+        margin:0 auto;
+    }
+    #top-page{
+        height:600px;
+        width:80%;
+        margin:0 auto;
+        background-color: rgba(0,0,0,0.7);
+    }
+    
+  
+}
+#coverPage1{
+    height:800px;
+    margin:0 auto;
+}
+#coverPage2{
+    height:800px;
+    margin:0 auto;
+}
+
+
+#top-page{
+    height:800px;
+    width:80%;
+    margin:0 auto;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    
+}
+#top-page:hover{
+    height:800px;
+    width:90%;
+    margin:0 auto;
+    background-color: rgba(0,0,0,0.8);
+    text-align: center;
+    
+}
+
+.pro{
+
+    color:white;
+    font-size: 8rem;
+    margin: 0 auto;
+    display: inline-block;   
+    margin-top: 30%; 
+    transition:ease-in-out 0.6s;
+}
+.drawing{
+    text-align: center;
+    height:300px;
+    width:200px;
+    position: absolute;
+    top:10%;
+    left:40%;
+    border:20px black;
+}
+#desc{
+    margin-top:20px;
+   
+    width:60%;
+    background-color:rgba(0,0,0,0.7);
+    border-radius: 2px;;
+    padding: 50px;
+    color: white;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.9);
+}
+.desc1{
+    margin:0 auto;
+    width:90%;
+    line-height: 2;
+}
+.webApp1{
+    
+    text-align:center;
+    margin:60px auto;
+    width:50%;
+}
+.webApp2{
+    text-align:center;
+    margin:60px auto;
+    width:50%;
+}
+.title{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top:30px;
+    margin-bottom: 20px;
+
+}
+.cover{
+    background-color: rgba(0,0,0,0.7);
+    width:100%;
+    height: 100%;
+    padding:50px;
+    color:white;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.7);
+}
+#but{
+    margin-top:40px;
+    margin-right: 20px;
+}
+.webApp3{
+    text-align:center;
+    margin:60px auto;
+    width:50%;
+}
+.webApp4
+{
+    text-align:center;
+    margin:60px auto;
+    width:50%;
+}
+.webApp1:hover{
+    width:70%;
+    
+}
+.webApp2:hover{
+    width:70%;
+   
+}
+.webApp3:hover{
+    width:70%;
+    
+}
+.webApp4:hover{
+    width: 70%;
+   
+}
+#link{
+    color:white;
+    text-decoration: no underline;
+}
+#link:hover{
+    color:black;
+    text-decoration: no underline;
+}
+.footer{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight:bolder;
+    background-color: rgb(42, 81, 93);
+    color:white;
+    padding:70px;
+    margin:auto;
+}
+#aboutme{
+   text-align: center;
+    width:60%;
+    padding:100px;
+}
+#link1{
+    color:black;
+    text-decoration: no underline;
+}
+#link1:hover{
+    color:white;
+    text-decoration: no underline;
+}
+.icons{
+    height:40px;
+    width:40px;
+    margin:10px;
+   
+}
