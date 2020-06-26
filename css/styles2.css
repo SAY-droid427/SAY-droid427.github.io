@@ -11,6 +11,7 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    line-height: 2;  
 
 }
 #na{
@@ -21,10 +22,12 @@ body{
     font-weight: bolder;
     font-size: 3rem;
     margin-bottom: 20px;
+    line-height: 2;
 }
 .para{
     font-weight: bold;
     line-height:2;
+    line-height: 2;
 }
 .img-responsive{
     margin:40px;
@@ -277,9 +280,14 @@ body{
     margin:auto;
 }
 #aboutme{
-   text-align: center;
-    width:60%;
+  
+    width:80%;
     padding:100px;
+}
+#aboutme1{
+    padding:100px;
+    width:80%;
+    font-size: 2rem;;
 }
 #link1{
     color:black;
