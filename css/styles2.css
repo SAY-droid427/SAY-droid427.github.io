@@ -10,8 +10,9 @@
     padding-top:40px;
 }
 body{
-    font-family: 'Montserrat', sans-serif;
-    line-height: 2;  
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 2;
+
 
 }
 #na{
@@ -284,7 +285,23 @@ body{
 }
 #aboutme{  
     width:100%;
-    padding:100px;
+    padding:100px 10px;
+}
+#containerStyle{
+    padding-top:100px;
+}
+
+hr {
+    margin-top:50px;
+    border: none;
+    height: 5px;
+    width:30%;
+    color: rgb(211, 164, 164); /* old IE */
+    background-color: rgb(179, 171, 171); /* Modern Browsers */
+}
+
+.image{
+    width:150px;
 }
 #aboutme1{
     padding:100px;
