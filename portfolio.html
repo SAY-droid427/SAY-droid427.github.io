@@ -29,10 +29,18 @@
                   <li class="nav-item">
                     <a class="nav-link" href="index.html"><strong><span class="header">About Me</span></strong></a>
                   </li>
-                 
                   <li class="nav-item">
                     <a class="nav-link" href="portfolio.html"><strong><span class="header">Portfolio</span></strong></a>
-                  </li>                 
+                  </li>   
+                  <li class="nav-item">
+                    <a class="nav-link" href="publications.html"><strong><span class="header">Publications</span></strong></a>
+                  </li>     
+                  <li class="nav-item">
+                    <a class="nav-link" href="projects.html"><strong><span class="header">Projects</span></strong></a>
+                  </li>  
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html"><strong><span class="header">Contact</span></strong></a>
+                  </li>               
                 </ul>      
               </div>
             </nav>
@@ -44,7 +52,7 @@
             </div>
         </div>
         <!--Work Experience-->
-        <div class="container-fluid" style="background-color: azure;">
+        <div class="container-fluid">
             <div class="container" id="containerStyle">
                 <h1>Work Experiences</h1>
                 <div class="row" style="padding-top:50px;">
@@ -52,7 +60,8 @@
                         <img src="images/fk.jpg" class="image">
                     </div>
                     <div class="col-sm-8">
-                        <h3>Worked in the M3 Data Apps Team to create New vs Repeat Customer metrics for Brand Insights Tool.<br>Tools used: Hadoop, Crunch, Java</h3>
+                        <h3>Working in the Discovery team in the Top of Funnel Engineering team starting from 2023.</h3>
+                        <h3>Worked in the M3 Data Apps Team to create New vs Repeat Customer metrics for Brand Insights Tool as an intern in 2022.<br>Tools used: Hadoop, Crunch, Java</h3>
                     </div>
                 </div>
                 <div class="row" style="padding-top:50px;">
@@ -85,45 +94,10 @@
             </div>
             <hr>
         </div>
-        <!--Projects-->
-        <div class="container-fluid" id="containerStyle">
-            <div class="container">
-                <h1>Projects</h1>
-                <div class="row"  style="padding-top:50px;">
-                    <div class="col-lg-8">
-                        <h3>Cryptoversity</h3>
-                        <h4>Created a web application to help crypto enthusiasts get the latest news, ranking of various cryptocurrencies and perform transactions using Metamask.<br>Tools used: ReactJS, MongoDB, Solidity</h4>
-                    </div>
-                    <div class="col-lg-4">
-                        <img src="images/crypto.png" style="width:100%">
-                    </div>
-                </div>
-                <hr>
-                <div class="row"  style="padding-top:50px;">
-                    <div class="col-lg-4">
-                        <img src="images/EEG.jpeg" style="width:100%">
-                    </div>
-                    <div class="col-lg-8">
-                        <h3 style="padding-top: 10px;;">Detection of Epileptic Seizures in EEG signals</h3>
-                        <h4>Performed binary and multiclass classification to classify EEG signals into different stages of ictal, pre-ictal and inter-ictal stages using a novel architecture employing long short-term memory and one-dimensional convolutional neural networks. Achieved improvement over the existing state-of-art methods.<br>Tools used: python, Keras, Tensorflow</h4>
-                    </div>
-                </div>
-                <hr>
-                <div class="row"  style="padding-top:50px;">
-                    <div class="col-lg-8">
-                        <h3>Comparative study of various machine learning models and IoT methods for detection of sleep apnea</h3>
-                        <h4>Built a deep neural network model for the detection of sleep apnea from ECG signals using the RR Intervals. Achieved accuracy of 85.97%. Also built another model based on feature extraction from RR Intervals and achieved accuracy of 86.6%. Deployed the machine learning models to ESP32 and Raspberry Pi Pico to do a comparative study on the performance metrics of the models on the two devices.<br>Tools used: python, Keras, tensorflow, Edge Impulse </h4>
-                    </div>
-                    <div class="col-lg-4">
-                        <img src="images/ECG.jpg" style="width:100%">
-                    </div>
-                </div>
-                <hr>
-            </div>
-        </div>
+       
 
         <!--Achievements-->
-        <div class="container-fluid" id="containerStyle"  style="background-color:azure">
+        <div class="container-fluid" id="containerStyle">
             <div class="container">
                 <h1>Achievements</h1>
                 <div class="row">
@@ -143,53 +117,10 @@
             <hr>
 
         </div>
-        <!--Publications-->
-        <div class="container-fluid" id="containerStyle">
-            <div class="container">
-                <h1>Publications</h1>
-                <div class="row">
-                    
-                    <div class="col-sm-12">
-                        <h2><a href='https://ieeexplore.ieee.org/document/10131117'>Sleep Apnea Detection System Using Machine Learning on Resource-Constrained Devices</a></h2>
-                        <h4>The Proceedings of The 17th Annual IEEE Systems Conference</h4>
-                        <h4>19th April, 2023</h4>
-                        <h3>In our study, we show that machine learning models deployed on microcontrollers can successfully analyze 
-                            ECG signals in real-time for Sleep Apnea detection. We have
-                            created TinyML models using TensorFlow Lite which we have
-                            deployed on cost effective and resource constrained devices like
-                            the Raspberry Pi Pico and ESP32. Our setup has given results
-                            comparable to more advanced and expensive devices for the
-                            detection of Sleep Apnea using ECG signals.We have reduced the cost, 
-                            complexity and accessibility of Sleep Apnea detection.</h3>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    
-                    <div class="col-sm-12">
-                        <h2><a href=''>Resource-Constrained Device Characterization for Detecting Sleep Apnea Using Machine Learning(Accepted)</a></h2>
-                        <h4>The Proceedings of International Conference on Smart Applications, Communications and Networking </h4>
-                        <h4>25th - 27th July, 2023</h4>
-                        <h3>
-                            In our research, we have successfully developed a comprehensive and self-contained system that captures ECG signals using 
-                            ECG electrodes, AD8232 for collection of ECG signals. The system includes signal processing, sleep apnea detection using Deep Learning models, and displaying the
-                            results on an OLED screen. Our study compares the performance of different micro-controllers with varying capacities and 
-                            costs: Raspberry Pi Pico, ESP32, and Arduino Nano BLE Sense. We have achieved comparable accuracies to those of 
-                            expensive industrial devices at a significantly lower cost. This work lays the foundation for the development of wearable 
-                            devices capable of detecting sleep apnea without the need for internet connectivity or data transmission. This work can be extended for any other 
-                            body signals like EEG.
-                         </h3>
-                    </div>
-                </div>
-                
-                
-            </div>
-            <hr>
-
-        </div>
+        
 
         <!--Conferences-->
-        <div class="container-fluid" id="containerStyle"  style="background-color:azure">
+        <div class="container-fluid" id="containerStyle">
             <div class="container">
                 <h1>Conferences</h1>
                 <div class="row">
@@ -203,33 +134,8 @@
             </div>
         </div>
         <hr>
-        <!--Resume-->
-        <div class="container-fluid" id="containerStyle"  style="padding-bottom:20px;">
-            <div class="container">
-                <h1>Resume and Contact Details</h1>
-                <br>
-                <br>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <h3><a href="images/resume.pdf" class="link">Resume</a></h3>          
-                        </div>
-                        <div class="col-sm-4">
-                            <a href="https://github.com/SAY-droid427">
-                                <img src="images/git.jpg" style="height: 100px;">
-                            </a>
-                        </div>
-                        <div class="col-sm-4">
-                            <a href="https://www.linkedin.com/in/sayani-mallick-80825018b">
-                                <img src="images/linkedIn.png" style="height:100px;">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <footer class="footer" style="background-color: palevioletred;">
+        
+        <footer class="footer" style="background-color: rgb(226, 166, 186);">
             Made with ❤️️ by Sayani Mallick 
           </footer>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

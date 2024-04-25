@@ -12,9 +12,8 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 2;
-
-
 }
+
 #na{
     margin-bottom:50px;
 }
@@ -325,5 +324,5 @@ hr {
 
 a{
     color: black;
-    text-decoration: underline;
+    text-decoration: no underline;
 }
